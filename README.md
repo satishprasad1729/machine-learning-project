@@ -70,8 +70,8 @@ git branch
 To setup CI/CD pipeline in heroku we need 3 information
 
 1. HEROKU_EMAIL =satishprasad1729@gmail.com
-2. HEROKU_API_KEY = 7b69b82e-f4e6-4b9e-bc18-e853bc5e8b8b
-3. HEROKU_APP_NAME = 
+2. HEROKU_API_KEY = <>
+3. HEROKU_APP_NAME = ml-regression-app
 
 BUILD DOCKER IMAGE
 '''

@@ -18,7 +18,7 @@ jobs:
       ### ⬇ IMPORTANT PART ⬇ ###
 
       - name: Build and Push a Docker container to Cyclic.sh
-        uses: cyclicci/docker-action@v1  # Update with the appropriate Cyclic.sh action.
+        uses: machine-learning-project/docker-action@v1  # Update with the appropriate Cyclic.sh action.
         with:
           # Below you must provide variables for your Cyclic.sh deployment.
 

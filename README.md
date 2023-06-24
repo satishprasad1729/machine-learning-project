@@ -7,6 +7,7 @@ this is my first machine learning project
 3. [Vs Code IDE](https://code.visualstudio.com/download)
 4. [Git CLI](https://git-scm.com/downloads)
 5. [Git Documentation](https://git-scm.com/docs/git)
+6. [cyclic.sh account](https://www.cyclic.sh/)
 
 Creating conda environment
 '''

@@ -1,5 +1,5 @@
 # machine-learning-project
-this is the first machine learning project
+this is my first machine learning project
 
 # Software and account requirement
 1. [Github account](https://github.com/)

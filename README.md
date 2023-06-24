@@ -103,3 +103,6 @@ docker stop <container_id>
 deploying on cyclic.sh
 '''
 
+'''
+python setup.py install
+'''

@@ -99,4 +99,7 @@ to stop docker container
 '''
 docker stop <container_id>
 '''
+'''
+deploying on cyclic.sh
+'''
 

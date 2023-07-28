@@ -1,108 +1,118 @@
-# machine-learning-project
-this is my first machine learning project
+Application url:
+[HousingPredictor](https://ml-regression-app.herokuapp.com/)
 
-# Software and account requirement
-1. [Github account](https://github.com/)
-2. [Heroku account](https://dashboard.heroku.com/)
-3. [Vs Code IDE](https://code.visualstudio.com/download)
-4. [Git CLI](https://git-scm.com/downloads)
-5. [Git Documentation](https://git-scm.com/docs/git)
-6. [cyclic.sh account](https://www.cyclic.sh/)
+## Start Machine Learning project.
+
+### Software and account Requirement.
+
+1. [Github Account](https://github.com)
+2. [Heroku Account](https://dashboard.heroku.com/login)
+3. [VS Code IDE](https://code.visualstudio.com/download)
+4. [GIT cli](https://git-scm.com/downloads)
+5. [GIT Documentation](https://git-scm.com/docs/gittutorial)
+
 
 Creating conda environment
-'''
+```
 conda create -p venv python==3.7 -y
-'''
-
-'''
+```
+```
 conda activate venv/
-'''
-OR
-'''
+```
+OR 
+```
 conda activate venv
-'''
+```
 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 
-to add files to git
-'''
-git add file
-'''
+To Add files to git
+```
+git add .
+```
 
-to check version
-'''
-git log
-'''
+OR
+```
+git add <file_name>
+```
 
-> Note: to ignore file or folder from git we can write .gitignore file
+> Note: To ignore file or folder from git we can write name of file/folder in .gitignore file
 
-To check git status
-'''
+To check the git status 
+```
 git status
-'''
-
-to check all v ersion maintained by git
-'''
+```
+To check all version maintained by git
+```
 git log
-'''
+```
 
-to create version/commit all changes
-'''
+To create version/commit all changes by git
+```
 git commit -m "message"
-'''
+```
 
-to send version/changes to github
-'''
+To send version/changes to github
+```
 git push origin main
-'''
+```
 
-to check remote url
-'''
+To check remote url 
+```
 git remote -v
-'''
-
-to check branch name
-'''
-git branch
-'''
+```
 
 To setup CI/CD pipeline in heroku we need 3 information
-
-1. HEROKU_EMAIL =satishprasad1729@gmail.com
+1. HEROKU_EMAIL = anishyadav7045075175@gmail.com
 2. HEROKU_API_KEY = <>
 3. HEROKU_APP_NAME = ml-regression-app
 
 BUILD DOCKER IMAGE
-'''
+```
 docker build -t <image_name>:<tagname> .
-'''
-> Note:image name for docker must be lowercase
+```
+> Note: Image name for docker must be lowercase
 
-to list docker images
-'''
+
+To list docker image
+```
 docker images
-'''
+```
 
-to run docker image
-'''
-docker run -p 5000:5000 -e PORT=5000 d45a13fc8e10
-'''
+Run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 f8c749e73678
+```
 
 To check running container in docker
-'''
+```
 docker ps
-'''
+```
 
-to stop docker container
-'''
+Tos stop docker conatiner
+```
 docker stop <container_id>
-'''
-'''
-deploying on cyclic.sh
-'''
+```
 
-'''
+
+
+```
 python setup.py install
-'''
+```
+
+
+Install ipykernel
+
+```
+pip install ipykernel
+```
+
+
+Data Drift:
+When your datset stats gets change we call it as data drift
+
+
+
+## Write a function to get training file path from artifact dir
